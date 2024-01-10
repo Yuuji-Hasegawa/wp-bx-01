@@ -18,12 +18,16 @@
 </div>
 <div class="o-box o-box--transparent u-bg-qua u-pb-2xl">
   <div class="o-center o-center--content">
-    <h2 class="c-sec-heading u-text-center u-text-weight-b u-font-en">Information</h2>
+    <h2 class="c-sec-heading u-text-center u-text-weight-b u-font-en-con u-first-color">
+      <span class="u-pos-r u-heading-line">Information</span>
+    </h2>
     <?php echo get_front_news();?>
   </div>
 </div>
 <div class="o-center u-pb-2xl">
-  <h2 class="c-sec-heading u-text-center u-text-weight-b u-font-en">What's New</h2>
+  <h2 class="c-sec-heading u-text-center u-text-weight-b u-font-en-con u-first-color">
+    <span class="u-pos-r u-heading-line">What's New</span>
+  </h2>
   <?php if (have_posts()):?>
   <ul class="o-grid o-grid--tri u-mb-xl">
     <?php while (have_posts()): the_post();?>

@@ -1,7 +1,7 @@
-# wp-bx-00
+# wp-bx-01
 
-- WordPress テーマ、[BX-00](https://demo.bbns.jp/bx-00/)のリポジトリです
-- 当テーマで使用している CSS、JS、画像については[html-bx-00](https://github.com/Yuuji-Hasegawa/html-bx-00)をお使いいただくか、別途用意の上加工してください
+- WordPress テーマ、[BX-01](https://demo.bbns.jp/bx-01/)のリポジトリです
+- 当テーマで使用している CSS、JS、画像については[html-bx-01](https://github.com/Yuuji-Hasegawa/html-bx-01)をお使いいただくか、別途用意の上加工してください
 - favicon.ico と favicon.svg の両方を用意しています
 - PWA、ダークモード、レスポンシブは標準装備です
 - WP-CLI の使用を想定しています
@@ -39,8 +39,8 @@ https://wp-cli.org/ja/
 
 ## 主要な変更箇所（想定）
 
-1. テーマ名を変更する場合は、`.gitignore`内のテーマ名部分、`wp-bx-00/style.css`を編集してください
-2. 各サイトの設計に合わせ、`wp-bx-00/lib/breadcrumb.php`、`wp-bx-00/lib/json-ld.php`を編集ください
-3. 固有名詞や favicon、フォントの preload は、`wp-bx-00/lib/setting.json`、、`wp-bx-00/lib/head.php`、`wp-bx-00/pwa/manifest.json`、`wp-bx-00/pwa/sw.js`を編集ください
+1. テーマ名を変更する場合は、`.gitignore`内のテーマ名部分、`wp-bx-01/style.css`を編集してください
+2. 各サイトの設計に合わせ、`wp-bx-01/lib/breadcrumb.php`、`wp-bx-01/lib/json-ld.php`を編集ください
+3. 固有名詞や favicon、フォントの preload は、`wp-bx-01/lib/setting.json`、、`wp-bx-01/lib/head.php`、`wp-bx-00/pwa/manifest.json`、`wp-bx-01/pwa/sw.js`を編集ください
 4. `page-hoge.php`の`hoge`は slug に合わせて編集ください。固定ページの中身を`the_content`で流し込む場合は設定に合わせてください
-5. jQuery や reCAPTCHA の読み込みを`wp-bx-00/lib/script-load.php`で制御しています。適宜編集ください
+5. jQuery や reCAPTCHA の読み込みを`wp-bx-01/lib/script-load.php`で制御しています。適宜編集ください
